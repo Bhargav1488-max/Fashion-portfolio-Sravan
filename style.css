@@ -63,38 +63,32 @@ header .hero p {
     margin-bottom: 20px;
 }
 
-/* Gallery Section */
-#gallery {
+/* Photos Section */
+#photos {
     padding: 50px;
     text-align: center;
 }
-#gallery h2 {
+#photos h2 {
     font-size: 32px;
     margin-bottom: 20px;
 }
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+.photo-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
-.grid img {
-    width: 100%;
+.photo-card img {
+    width: 300px;
     border-radius: 10px;
-    transition: 0.3s;
+    margin-right: 20px;
 }
-.grid img:hover {
-    transform: scale(1.05);
+.photo-card .description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
-
-/* Storytelling Section */
-#story {
-    padding: 50px;
-    text-align: center;
-    background: #ff617c;
-}
-#story h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+.photo-card .description p {
+    font-size: 16px;
+    color: #eee;
 }
 
 /* Footer */
